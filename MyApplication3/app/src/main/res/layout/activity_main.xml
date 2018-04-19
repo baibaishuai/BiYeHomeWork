@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/ly_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rg_tab_bar">
+        <FrameLayout
+            android:id="@+id/framelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_alignParentBottom="true" />
+
+    <RadioGroup
+        android:id="@+id/rg_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/myradiobutton"
+            android:drawableTop="@drawable/tab_menu_home_radiobutton"
+            android:text="首页"
+            android:onClick="onClick"/>
+
+        <RadioButton
+            android:id="@+id/rb_classify"
+            style="@style/myradiobutton"
+            android:drawableTop="@drawable/tab_menu_classify_radiobutton"
+            android:text="分类"
+            android:onClick="onClick"/>
+
+        <RadioButton
+            android:id="@+id/rb_find"
+            style="@style/myradiobutton"
+            android:drawableTop="@drawable/tab_menu_find_radiobutton"
+            android:text="逛"
+            android:onClick="onClick"/>
+
+        <RadioButton
+            android:id="@+id/rb_shopping"
+            style="@style/myradiobutton"
+            android:drawableTop="@drawable/tab_menu_shopping_radiobutton"
+            android:text="购物车"
+            android:onClick="onClick"/>
+
+        <RadioButton
+            android:id="@+id/rb_my"
+            style="@style/myradiobutton"
+            android:drawableTop="@drawable/tab_menu_my_radiobutton"
+            android:text="我的"
+            android:onClick="onClick"/>
+
+    </RadioGroup>
+    <View
+        android:id="@+id/div_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="22px"
+        android:layout_above="@id/rg_tab_bar"
+        />
+
+</RelativeLayout>
