@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="myradiobutton" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:layout_height">match_parent</item>
+    <item name="android:button">@null</item>
+    <item name="android:gravity">center</item>
+    <item name="android:textSize">15sp</item>
+    </style>
+
+
+    <string-array name="data">
+        <item>我是第一行数据</item>
+        <item>我是第二行数据</item>
+        <item>我是第二行数据</item>
+        <item>我是第二行数据</item>
+        <item>我是第二行数据</item>
+        <item>我是第二行数据</item>
+        <item>我是第二行数据</item>
+        <item>我是第二行数据</item>
+        <item>我是第二行数据</item>
+        <item>我是第二行数据</item>
+        <item>我是第二行数据</item>
+        <item>我是第二行数据</item>
+        <item>我是第二行数据</item>
+        <item>我是第二行数据</item>
+        <item>我是第二行数据</item>
+    </string-array>
+
+    <string name="appname">YOGO</string>
+    <string name="login_name">YOGO</string>
+    <string name="btn_sign">sign in</string>
+    <string name="btn_exit">sing up</string>
+    <string name="edit_admin">admin</string>
+    <string name="edit_password">password</string>
+    <string name="register_admin">请输入需要注册的用户名</string>
+    <string name="register_password">请输入密码</string>
+    <string name="new_admin_register">新用户注册</string>
+    <string name="btn_register">注册</string>
+    <string name="btn_register_exit">取消</string>
+    <string name="btn_login_register">登录</string>
+    <string name="quanbudingdan">全部订单</string>
+    <string name="pay">待付款</string>
+    <string name="send">待发货</string>
+    <string name="recevive">待收货</string>
+    <string name="camera">待晒单</string>
+    <string name="phone">退/换货</string>
+    <string name="mydingdan">我的订单</string>
+    <string name="myshoucang">我的收藏</string>
+    <string name="myshaidan">我的晒单</string>
+    <string name="changepwd">修改密码</string>
+    <string name="zhuxiao">注销登录</string>
+    <string name="registerhead">YoGo!</string>
+</resources>
